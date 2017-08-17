@@ -10,7 +10,7 @@ var jungePause = 0
 var jungePauseTime = 0 //判断距离是否与disCount[jungePauseTime]
 $.ajax({
 	type:"get",
-    url: "http://192.168.1.145/mock/data.json",
+    url: "http://192.168.1.146/mock/data.json",
     error:function(err){
         console.log(err.status);
     },
@@ -39,7 +39,7 @@ $.ajax({
 
 
 var img = new Image();
-img.src = 'http://192.168.1.145/mock/runner2.png';
+img.src = 'http://192.168.1.146/mock/runner2.png';
 
 
 

@@ -45,15 +45,15 @@ var timer = setInterval(function(){
     if(switchs >= 17){
         switchs = 1
     }
-      img.src = 'http://192.168.1.145/mockSmile/images/run-'+switchs+'.png'
+      img.src = 'http://192.168.1.146/mockSmile/images/run-'+switchs+'.png'
       switchs++
 },30)
 
 var smileImg = new Image();
-smileImg.src = 'http://192.168.1.145/mockSmile/smile.png';
+smileImg.src = 'http://192.168.1.146/mockSmile/smile.png';
 
 var flagImg = new Image();
-flagImg.src = 'http://192.168.1.145/mockSmile/flag.png';
+flagImg.src = 'http://192.168.1.146/mockSmile/flag.png';
 
 var topBar = document.createElement('div');
 topBar.id = 'topBar'
